@@ -7,3 +7,4 @@ android work
 5. Viewbinding (setting in gradle file)
 6. ListView
 7. Webview
+8. RecycleView
