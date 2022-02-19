@@ -9,4 +9,5 @@ android work
 7. Webview
 8. RecycleView
 9. Fragment
-10. 
+10. Log & comment
+11. Thread & Handler
