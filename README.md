@@ -11,7 +11,7 @@ android work
 9. Fragment
 10. Log & comment
 11. Thread & Handler
-12 .Get Macaddress and IpAddress phone number
+12. Get Macaddress and IpAddress phone number
 ```
 public static String getLocalMacAddress() {
         String result = "";
