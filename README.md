@@ -50,3 +50,15 @@ public static String getLocalMacAddress() {
         return result;
     }
 ```
+# adb restart 
+android sdk>platform-tools>
+
+adb kill-server
+
+press enter
+
+and again
+
+adb start-server
+
+press enter
