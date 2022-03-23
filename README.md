@@ -74,4 +74,6 @@ Easiest way for getting SHA1 Key in android studio both (Debug and release Mode)
 6.Click on Tasks/Android
 7.Double Click on signingReport (You will get SHA1 and MD5 in Run Bar)
 
+#login with google accout from firebase
 
+https://www.youtube.com/watch?v=gD9uQf5UU-gs
