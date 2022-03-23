@@ -62,3 +62,16 @@ and again
 adb start-server
 
 press enter
+
+# get sha1 key on android studio
+Easiest way for getting SHA1 Key in android studio both (Debug and release Mode)
+
+1.Open Android Studio
+2.Open Your Project
+3.Click on Gradle (From Right Side Panel, you will see Gradle Bar)
+4.Click on Refresh (Click on Refresh from Gradle Bar , you will see List Gradle scripts of your Project)
+5.Click on Your Project (Your Project Name form List)
+6.Click on Tasks/Android
+7.Double Click on signingReport (You will get SHA1 and MD5 in Run Bar)
+
+
