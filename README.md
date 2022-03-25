@@ -77,3 +77,5 @@ Easiest way for getting SHA1 Key in android studio both (Debug and release Mode)
 # login with google accout from firebase
 
 https://www.youtube.com/watch?v=gD9uQf5UU-gs
+
+# create project in firebase and add api in console.cloud.google.con
