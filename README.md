@@ -79,3 +79,22 @@ Easiest way for getting SHA1 Key in android studio both (Debug and release Mode)
 https://www.youtube.com/watch?v=gD9uQf5UU-gs
 
 # create project in firebase and add api in console.cloud.google.con
+
+# AirPlaneMode on/ off
+```
+String cmdOn = "su -c settings put global airplane_mode_on 1";
+        String cmdOff = "su -c settings put global airplane_mode_on 0";
+        String cmdRun = "su -c am broadcast -a android.intent.action.AIRPLANE_MODE";
+
+        shellCmd(cmdOn);
+        Thread.sleep(2000);
+        shellCmd(cmdRun);
+        Thread.sleep(8000);
+
+        shellCmd(cmdOff);
+        Thread.sleep(2000);
+        shellCmd(cmdRun);
+        Thread.sleep(8000);
+
+        callback.invoke(null, "Changed AirPlaneMode");
+        ```
