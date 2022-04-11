@@ -103,4 +103,11 @@ String cmdOn = "su -c settings put global airplane_mode_on 1";
 Input draganddrop 500 50 500 800 500
 Input tap 990 330
 ```
+# expand status bar via adb shell
+```
+//Expand status bar
+service call statusbar 1
+//Collapse status bar
+service call statusbar 2
 
+```
