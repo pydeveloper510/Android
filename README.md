@@ -99,13 +99,17 @@ String cmdOn = "su -c settings put global airplane_mode_on 1";
         callback.invoke(null, "Changed AirPlaneMode");
         ```
 # touch with adb
+
 ```
 Input draganddrop 500 50 500 800 500
 Input tap 990 330
 ```
+
 # expand status bar via adb shell
 
 ```
 service call statusbar 1
+
 service call statusbar 2
+
 ```
