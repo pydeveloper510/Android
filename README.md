@@ -107,9 +107,14 @@ Input tap 990 330
 
 # expand status bar via adb shell
 
+
 ```
 service call statusbar 1
 
 service call statusbar 2
 
 ```
+# Air Plane Mode
+
+https://stackoverflow.com/questions/10506591/turning-airplane-mode-on-via-adb/40271379#comment86503606_40271379![image](https://user-images.githubusercontent.com/85598258/163134126-36dac36a-cc0d-44a1-9c41-684f762e124f.png)
+
